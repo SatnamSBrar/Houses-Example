@@ -1,0 +1,3 @@
+c:\users\wecancodeit\documents\visual studio 2015\Projects\SB 011717 Classes Practice Houses Ex\SB 011717 Classes Practice Houses Ex\bin\Debug\SB 011717 Classes Practice Houses Ex.exe.config
+c:\users\wecancodeit\documents\visual studio 2015\Projects\SB 011717 Classes Practice Houses Ex\SB 011717 Classes Practice Houses Ex\obj\Debug\SB 011717 Classes Practice Houses Ex.exe
+c:\users\wecancodeit\documents\visual studio 2015\Projects\SB 011717 Classes Practice Houses Ex\SB 011717 Classes Practice Houses Ex\obj\Debug\SB 011717 Classes Practice Houses Ex.pdb
