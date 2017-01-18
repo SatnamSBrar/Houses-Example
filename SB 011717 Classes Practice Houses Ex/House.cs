@@ -13,7 +13,21 @@ namespace SB_011717_Classes_Practice_Houses_Ex
         private int size;
         private int doors;
 
-        public House(string color, int rooms, int size, int doors)  //set parameters for class House
+        public House()                                              //sets default parameters for class House
+        {
+            this.color = "Light Blue";
+            this.rooms = 6;
+            this.size = 5000;
+            this.doors = 3;
+        }
+
+        public House(string color, int size)                        //sets parameters for class House
+        {
+            this.color = color;
+            this.size = size;
+        }
+
+        public House(string color, int rooms, int size, int doors)  //set different parameters for class House
         {
             this.color = color;
             this.rooms = rooms;
