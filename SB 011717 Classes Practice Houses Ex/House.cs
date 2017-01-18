@@ -8,11 +8,21 @@ namespace SB_011717_Classes_Practice_Houses_Ex
 {
     class House
     {
+        //fields
         private string color;               //set to private so it cannot be modified
         private int rooms;
         private int size;
         private int doors;
+        private string name;
 
+        //properties
+        public string Name                  //declares property Name
+        {
+            get { return this.name; }
+            set { this.name = value; }      //allows public to input value for property
+        }
+
+        //constructors
         public House()                                              //sets default parameters for class House
         {
             this.color = "Light Blue";
@@ -35,6 +45,7 @@ namespace SB_011717_Classes_Practice_Houses_Ex
             this.doors = doors;
         }
 
+        //methods
         public void Paint(string color)    //set to public so it can be used publicly
         {
             this.color = color;             //this. refers to class House

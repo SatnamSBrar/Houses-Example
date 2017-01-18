@@ -27,7 +27,15 @@ namespace SB_011717_Classes_Practice_Houses_Ex
             */
 
             House house1 = new House("White", 15, 10000, 7);
+
+            house1.Name = "New Home";
+            Console.WriteLine(house1.Name);
+
             house1.DisplayHouseInfo();
+
+            House house2 = new House("Brownstone", 15000);
+
+            
         }
     }
 }
